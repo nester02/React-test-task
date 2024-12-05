@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+}
+
+.--header__container {
+    padding: 20px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    height: 48px;
+    width: 200px;
+    border: 1px solid #C4C4C4;
+    font-size: 14px;
+}
+
+.button__active {
+    background-color: #C4C4C4;
+}
+
+.button a {
+    color: #000000;
+}
+
+.--header__button {
+
+}
