@@ -1,4 +1,30 @@
-.edit_user {
+.edit {
     border-top: 1px solid #000000;
     padding: 80px 100px;
+}
+
+.__container {
+}
+
+.--edit__container {
+    padding: 0 80px;
+}
+
+.section__heading {
+}
+
+.--edit__heading {
+}
+
+.edit__select {
+}
+
+.--edit__select-user {
+}
+
+.--edit__description {
+    margin-left: 0;
+}
+
+.edit__user-information {
 }

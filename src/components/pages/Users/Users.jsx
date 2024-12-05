@@ -17,7 +17,7 @@ const Users = () => {
         <section className="home">
             <div className="__container --users__container">
                 <h1 className="section__heading --users__heading">Users</h1>
-                <p className="users__description">Please add at least 3 departmetns to be able to proceed next
+                <p className="section__description">Please add at least 3 departmetns to be able to proceed next
                     steps.</p>
                 <div className="section__inner">
                     <div className="users__inner--inputs">
