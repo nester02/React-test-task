@@ -102,7 +102,7 @@ const EditUser = () => {
                     <div className="section__description --edit__description">User</div>
                     {renderCustomSelect({
                         options: userOptions,
-                        value: selectedUser,
+                        value: selectedUser || undefined,
                         onChange: handleSelectChange,
                         placeholder: 'Search User',
                         style: {width: 489, height: 48,}
