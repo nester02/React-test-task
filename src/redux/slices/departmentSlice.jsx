@@ -12,7 +12,7 @@ const initialState = {
 };
 
 const departmentsSlice = createSlice({
-    name: 'departments',
+    name: 'department',
     initialState,
     reducers: {}
 });

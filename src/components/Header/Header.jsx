@@ -11,17 +11,13 @@ const Header = () => {
         <header>
             <div className="__container --header__container">
                 <nav>
-                    <button className={`button --header__button ${isEditUserPage ? 'button__active' : ''}`}>
-                        <Link to="/edit-user/1">
-                            Edit Users
-                        </Link>
-                    </button>
-                    <button className={`button --header__button ${isUsersPage ? 'button__active' : ''}`}>
-                        <Link to="/">
-                            Users
-                        </Link>
-                    </button>
-                </nav>
+                    <Link to="/edit-user/1">
+                    <button className={`button --header__button ${isEditUserPage ? 'button__active' : ''}`}>Edit Users</button>
+                    </Link>
+                    <Link to="/">
+                        <button className={`button --header__button ${isUsersPage ? 'button__active' : ''}`}>Users</button>
+                    </Link>
+            </nav>
             </div>
         </header>
     );

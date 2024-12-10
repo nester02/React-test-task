@@ -30,6 +30,10 @@ button:hover {
   color: #C4C4C4;
 }
 
+.--button__disabled:hover {
+  background-color: #fff;
+}
+
 /* Reset and base styles  */
 * {
   padding: 0px;
